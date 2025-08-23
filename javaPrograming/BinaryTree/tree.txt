@@ -1,0 +1,26 @@
+types:
+
+BFS - breadth first search or level oredr search
+DFS - Deapth first search
+
+DFS types
+1 - Inorder
+2 - Preorder
+3 - Postorder
+
+Inorder - left root right
+Preorder - root left right
+Postorder - left right root
+
+    10
+20      30
+
+Inorder - 20 10 30
+Preorder - 10 20 30
+Postorder - 20 30 10
+
+time complexity -> 0(n)  n - number of node(each node is visited only one time)
+space complexity -> 0(h) h - height
+
+
+the longest of root to leaf path is know as height of the tree.
